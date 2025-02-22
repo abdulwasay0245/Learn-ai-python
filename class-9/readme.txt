@@ -1,0 +1,1 @@
+hamari tabiat khrb thi
