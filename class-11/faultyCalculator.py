@@ -1,8 +1,8 @@
 import random
 
-q_num_1 = str(input("Enter First Number: "))
-q_num_2 = str(input("Enter Second Number: "))
-operator = str(input("Enter any operator: "))
+# q_num_1 = str(input("Enter First Number: "))
+# q_num_2 = str(input("Enter Second Number: "))
+# operator = str(input("Enter any operator: "))
 
 obj = ["+", "-", "*", "/"]
 
@@ -13,17 +13,17 @@ class House:
         self.num1 = num_1 
         self.num2 = num_2
         if(operator == "+"):
-            cal = eval(f"{q_num_1} {faulty} {q_num_2}")
+            cal = eval(f"{num_1} {faulty} {num_2}")
 
         elif(operator == "-"):
-            cal = eval(f"{q_num_1} {faulty} {q_num_2}")
+            cal = eval(f"{num_1} {faulty} {num_2}")
         elif(operator == "/"):
             if(num_2 == 0):
                 print("Math error")
             else:
-               cal = eval(f"{q_num_1} {faulty} {q_num_2}")
+               cal = eval(f"{num_1} {faulty} {num_2}")
         elif(operator == "*"):
-            cal = eval(f"{q_num_1} {faulty} {q_num_2}")
+            cal = eval(f"{num_1} {faulty} {num_2}")
         else:
             print("Invalid operator")  
         
@@ -32,4 +32,9 @@ class House:
 
 
 myHouse = House()
-print(myHouse.num(q_num_1, q_num_2, operator))
+# print(myHouse.num(q_num_1, q_num_2, operator))
+
+name: str|int = "wasay"
+name = 10
+print(name)
+

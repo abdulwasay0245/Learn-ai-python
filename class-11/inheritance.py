@@ -18,6 +18,7 @@ class Cat(Animal):
     def __init__(self, name, age, food):
         super().__init__(name, age)
         self.cat_food = food
+        
     # def meow(self):
     #     voice = "Meow"
     #     return voice
@@ -40,12 +41,12 @@ cat = Cat("Tom", 5, "Cat Food")
 cat_2 = Cat("Kitty", 3, "Cat Food")
 
 print(cat.name, cat.age, cat.make_sound(), cat.cat_food )
-print(cat_2.name, cat_2.age, cat.make_sound(), cat.cat_food )
+# print(cat_2.name, cat_2.age, cat.make_sound(), cat.cat_food )
 
 
-#  For Dog
-dog = Dog("Spike", 8)
-dog_2 = Dog("Sefart", 4)
+# #  For Dog
+# dog = Dog("Spike", 8)
+# dog_2 = Dog("Sefart", 4)
 
-print(dog.name, dog.age, dog.bark())
-print(dog_2.name, dog_2.age, dog_2.bark())
+# print(dog.name, dog.age, dog.bark())
+# print(dog_2.name, dog_2.age, dog_2.bark())

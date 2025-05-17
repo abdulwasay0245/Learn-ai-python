@@ -7,17 +7,17 @@ class House:
         self.num1 = num_1 
         self.num2 = num_2
         if(operator == "+"):
-            cal = eval(f"{q_num_1} {operator} {q_num_2}")
+            cal = eval(f"{num_1} {operator} {num_2}")
 
         elif(operator == "-"):
-            cal = eval(f"{q_num_1} {operator} {q_num_2}")
+            cal = eval(f"{num_1} {operator} {num_2}")
         elif(operator == "/"):
             if(num_2 == 0):
                 print("Math error")
             else:
-                cal = eval(f"{q_num_1} {operator} {q_num_2}") 
+                cal = eval(f"{num_1} {operator} {num_2}") 
         elif(operator == "*"):
-            cal = eval(f"{q_num_1} {operator} {q_num_2}")
+            cal = eval(f"{num_1} {operator} {num_2}")
         else:
             print("Invalid operator")  
         

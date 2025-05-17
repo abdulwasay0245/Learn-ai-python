@@ -1,6 +1,6 @@
 import time
 
-userinput = input("Write start to begin countdown...")
+userinput = input("Write start to Launch the Rocket...")
 def countdown():
     for i in range(10, 0, -1):
         print(i)
@@ -12,3 +12,5 @@ if userinput == "start":
     countdown()
 else:
     print("Invalid input")
+
+
